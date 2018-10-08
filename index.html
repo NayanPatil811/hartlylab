@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Open+Sans" rel="stylesheet">
+
+	<!-- include jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<!-- include Cycle2 -->
+	<script src="js/jquery.cycle2.js"></script>
+</head>
+<body>
+	<header>
+		<div class="big-menu">
+		<div>
+			<nav id="top-menu1">
+				<ul>
+					<li><a class="active" href="#">PORTFOLIO</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">GETINTOUCH</a></li>
+				</ul>
+			</nav>	
+		</div>
+		
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+		</div>
+		<div class="btm"><img src="images/btm.png"></div>
+		</div>
+		
+		<!-- <div>
+			<nav id="top-menu2">
+				<ul>
+					<li>PORTFOLIO</li>
+					<li>ABOUT</li>
+				</ul>
+			</nav>	
+		</div> -->
+		<!-- <nav id="top-menu2">
+			<ul>
+				<li>BLOG</li>
+				<li>GETINTOUCH</li>
+			</ul>
+		</nav> -->
+		<!-- <div id="mobile-menu">
+			<div id="toggle"><span></span></div>
+				<div id="menu"><span id="title">Menu</span>
+				  <ul>
+				    <li><a href="#"><span>Home</span></a></li>
+				    <li><a href="#"><span>Forum</span></a></li>
+				    <li><a href="#"><span>Downloads</span></a></li>
+				  </ul>
+				</div>
+				<div id="wrapper">
+				  <div id="logo"><span>Mobile Navigation Menu</span></div>
+				  <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sunt mollitia molestiae maxime, voluptatibus, voluptas placeat minima natus temporibus culpa repudiandae! Nam porro molestiae possimus, laboriosam, vero tenetur consequatur voluptatibus?</section>
+				</div>
+		</div> -->
+		<div id="mobile-menu">
+			<nav>
+	        <div class="main-header">
+	          <img src="images/logo.png" class="logomobile">
+	          <div>
+	            <button class="lines" onclick="menuButton()">
+	              <span class="line top"></span>
+	              <span class="line bottom"></span>
+	            </button>
+	          </div>
+	        </div>
+	        <div class="menu-wrapper closed">
+	          <div class="menu">
+	            <ul>
+	              <li class="mm"><a href="#">PORTFOLIO</a></li>
+	              <li class="mm"><a href="#">About</a></li>
+	              <li class="mm"><a href="#">BLOG</a></li>
+	              <li class="mm"><a href="#">GETINTOUCH</a></li>
+	            </ul>
+	          </div>
+	        </div>
+	      </nav>								
+		</div>
+	</header>
+	<div class="btmline"><!-- line -->
+			<div class="left"><img src="images/sepleft.png"></div>
+			<div class="right"><img src="images/sepleft.png"></div>
+		</div>
+
+	<!-- <section>
+		<div class="slider-section">
+			<img src="slider/slider1.png">
+		</div>
+	</section> -->
+
+	<section>
+		<div class="cycle-slideshow slider-section" 
+		    data-cycle-fx=scrollHorz
+		    data-cycle-timeout=4000
+		    >
+		    <!-- empty element for pager links -->
+		    <div class="cycle-pager"></div>
+
+		    <img src="images/banner/bg1.png">
+		    <img src="images/banner/bg1.png">
+		    <img src="images/banner/bg1.png">
+		    <img src="images/banner/bg1.png">
+		</div>
+		<div class="sepline">
+			<img src="images/sepline.png">
+		</div>
+		
+	</section>
+
+	<!-- <section>
+		<div class="about-us">
+			<div class="client">
+				<img src="images/about.png">
+			</div>
+			<div class="about-text">
+				<h1>Smith Aderson</h1>
+				<h5>Illustrator & Character Designer</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
+			</div>
+		</div>
+	</section> -->
+
+	<section>
+		<div id="main">
+			<div class="sepvert-left"><img src="images/sepvertical.png"></div>
+			<div class="sepvert-right"><img src="images/sepvertical.png"></div>
+		  <div id="d1">
+		  	<img src="images/about-us.png" class="about">
+		  </div>
+		  <div id="d2" class="about-text">
+		  		<h1>Smith Aderson</h1>
+				<h5>Illustrator & Character Designer</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. MaurisLorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				<div class="social-media">
+					<ul class="social-icon">
+						<li><a href="#"><img src="images/social-media/fb1.png"></a></li>
+						<li><a href="#"><img src="images/social-media/tw1.png"></a></li>
+						<li><a href="#"><img src="images/social-media/g+1.png"></a></li>
+						<li><a href="#"><img src="images/social-media/pn1.png"></a></li>
+						<li><a href="#"><img src="images/social-media/ln1.png"></a></li>
+						<li><a href="#"><img src="images/social-media/db1.png"></a></li>
+					</ul>
+				</div>
+		  </div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-form">
+			<div class="separate-btm"><img src="images/separate-btm.png"></div>
+			<div class="contact">
+				<h1>Get In Touch</h1>
+				<p>In order to get in touch use the contact from below:</p><br>
+				<form>
+					<input type="text" placeholder="Name (Required)"><br><br>
+					<input type="email" placeholder="Email (Required)"><br><br>
+					<input type="text" placeholder="Subject (Required)"><br><br>
+					<textarea name="content" rows="6" cols="80">Write your message here...</textarea>
+				</form><br>
+				<button type="button" class="btn">SEND</button>
+			</div>
+			<div class="address">
+				<p><strong style="color:#e0e0e0;">Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra niQuisque Hendrerit: purus dapibus, ornare nibh vitae, viverra niQuisque Hendrerit: purus dapibus, ornare</p>
+				<div class="contact-info">
+					<ul class="info">
+						<li><img src="images/loaction.png">&nbsp;&nbsp;&nbsp;&nbsp; Elm St. 14/05 Lost City</li>
+						<li><img src="images/phone.png">&nbsp;&nbsp;&nbsp;&nbsp; + 3528 331 86 35</li>
+						<li><img src="images/mail.png">&nbsp;&nbsp;&nbsp;&nbsp; info@hexalcorp.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>© Copyright 2013 by PSDchat</p>
+		</div>
+	</footer>
+	<script>
+		// $("#toggle").click(function() {
+		//     $(this).toggleClass("open");
+		//     $("#menu").toggleClass("opened");
+		// });
+var $lines= $('.lines');
+var $menu = $('.menu-wrapper');
+
+
+$lines.on('click', function() {
+  $lines.toggleClass('active');
+
+  if ( $menu.hasClass('closed') ) {
+    $menu.slideDown(200);
+    $menu.toggleClass('closed');
+  } else {
+    $menu.slideUp(100);
+    $menu.toggleClass('closed');
+  }
+});
+	</script>
+</body>
+</html>
